@@ -1,0 +1,11 @@
+{
+  "name": "business-page-concept",
+  "version": "1.0.0",
+  "description": "Concept",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "Hubert Sikorski",
+  "license": "MIT"
+}
