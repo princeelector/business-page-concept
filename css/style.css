@@ -11,7 +11,7 @@ header,
 }
 
 #intro {
-    background: url("../img/california-palms.jpg");
+    background: url('../img/california-palms.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

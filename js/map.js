@@ -6,14 +6,17 @@ const regularMap = () => {
         zoom: 14
     };
 
-    const map = new google.maps.Map(document.getElementById('map-container'), mapOptions);
+    const map = new google.maps.Map(
+        document.getElementById('map-container'),
+        mapOptions
+    );
 
     const marker = new google.maps.Marker({
         position: location,
         map: map,
         title: 'Krakow'
     });
-}
+};
 
 // Initialize
 google.maps.event.addDomListener(window, 'load', regularMap);
