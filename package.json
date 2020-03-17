@@ -1,11 +1,25 @@
 {
   "name": "business-page-concept",
   "version": "1.0.0",
-  "description": "Concept",
+  "description": "testing",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "test": "echo Test"
   },
-  "author": "Hubert Sikorski",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princeelector/business-page-concept.git"
+  },
+  "author": "Hubert & Jakub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/princeelector/business-page-concept/issues"
+  },
+  "homepage": "https://github.com/princeelector/business-page-concept#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }
